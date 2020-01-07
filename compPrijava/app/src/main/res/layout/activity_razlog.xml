@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.compprijava.razlogAct">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_view_selected"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="276dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginRight="286dp"
+        android:layout_marginBottom="40dp">
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Kraj radnog vremena"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privatan razlog"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <RadioButton
+            android:id="@+id/radio_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poslovan razlog"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_view_selected"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="362dp"
+        android:layout_marginLeft="362dp"
+        android:layout_marginEnd="362dp"
+        android:layout_marginRight="362dp"
+        android:layout_marginBottom="129dp"
+        android:text="Tvoj odabir: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="366dp"
+        android:layout_marginLeft="366dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="358dp"
+        android:layout_marginRight="358dp"
+        android:layout_marginBottom="47dp"
+        android:text="Potvrdi" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DodajUsera"
+    tools:showIn="@layout/activity_dodaj_usera">
+
+    <Button
+        android:id="@+id/potvrdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="149dp"
+        android:text=" Potvrdi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrezime"
+        app:layout_constraintVertical_bias="0.176"
+        tools:text="Potvrdi" />
+
+    <EditText
+        android:id="@+id/textViewID"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="180dp"
+        android:hint="ID Broj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textViewIme"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="14dp"
+        android:hint="Ime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewID" />
+
+    <EditText
+        android:id="@+id/textViewPrezime"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="14dp"
+        android:hint="Prezime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIme" />
+
+    <Button
+        android:id="@+id/buttonPonisti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="380dp"
+        android:layout_marginRight="380dp"
+        android:layout_marginBottom="149dp"
+        android:text="Ponisti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrezime"
+        app:layout_constraintVertical_bias="0.176" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

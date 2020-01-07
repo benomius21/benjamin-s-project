@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">compPrijava</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_razlog">razlogAct</string>
+    <string name="title_activity_dodaj_usera">DodajUsera</string>
+    <string name="title_activity_razlog2">razlog2</string>
+</resources>
